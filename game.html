@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Introduction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        section {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        /* สไตล์สำหรับปุ่ม Logout */
+        .logout-button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Self Introduction</h1>
+    </header>
+
+    <section>
+        <img src="me.jpg" alt="Your Name" width="200">
+        <h2>ธีระพันธ์ สังข์พั</h2>
+        <p>สวัดดีคับ อาจารย์อิ่ม เนื่องด้วยผมเขียนโคดไม่ทันผมก็เลยขออนุญาติส่งเเค่นี้ เรื่องคะเเนนตามที่อาจารจะให้เลยคับ</p>
+        
+        <!-- ปุ่ม Logout -->
+        <a href="home.html"><button class="logout-button" onclick="logout()">Logout</button></a>
+    </section>
+
+    <script>
+        // ฟังก์ชัน logout ที่จะทำงานเมื่อคลิกที่ปุ่ม Logout
+        function logout() {
+            // ตรวจสอบว่าคุณต้องการทำอะไรเมื่อคลิกปุ่ม Logout
+            console.log('Logout clicked');
+            // สามารถเพิ่มโค้ดเพื่อทำการออกจากระบบหรือลบ Session ได้ตามความต้องการ
+        }
+    </script>
+</body>
+
+</html>
